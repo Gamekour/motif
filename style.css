@@ -1,7 +1,7 @@
 /* ----- SITEWIDE STYLING ----- */
 html {
-    background-image: url("amo.jpeg");
-    background-size: 20%;
+    background-image: url("mun.png");
+    background-size: 5%;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     padding-left: 3em;
     padding-right: 3em;
-    background-color: #000000;
+    background-color: #000000f3;
     font-family: serif;
     text-align: center;
     color: white;
