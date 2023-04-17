@@ -1,25 +1,31 @@
-/* ----- SITEWIDE STYLING ----- */
 html {
-    background-image: url("mun.png");
-    background-size: 5%;
+    background-image: url("images/bg.png");
+    background-size: 100%;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
 
 body {
     display: flex;
-    min-height: 100vh;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    max-width: 50em;
+    max-width: 45em;
     margin: 0 auto;
     padding-left: 3em;
     padding-right: 3em;
-    background-color: #000000f3;
-    font-family: serif;
+    background-color: #000000e0;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: white;
     image-rendering: auto;
+    font-size: large;
+}
+
+ul{
+    align-self: center;
+    text-align: center;
+    width: 10em;
 }
 
 hr {
@@ -30,13 +36,77 @@ hr {
     clear: both;
 }
 
-p.weird-red-intro {
-    color: #AF0000;
+img{
+    width: 35em;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 /* ----- UTILITY CLASSES ----- */
 .inline {
     display: inline;
+}
+
+.projectimg{
+    height: 17em;
+    width: 17em;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.listimg{
+    width: 20em;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+.listtext{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50em;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    color: white;
+    image-rendering: auto;
+    font-size: medium;
+    vertical-align: bottom;
+}
+
+.listtext:hover{
+    color: rgb(65, 83, 133);
+}
+
+.special{
+    flex-direction: column;
+    max-width: 50em;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    image-rendering: auto;
+    font-size: medium;
+    background-color: #2f887c80;
+    border: #17b8a2;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.specialimg{
+    max-width: 15em;
+    border-width: 3px;
+    border-style: solid;
+    border: #000000;
+    text-align: center;
+    filter: drop-shadow(8px 16px 6px rgb(0, 0, 0));
 }
 
 /* ----- HEADER STYLING ----- */
@@ -60,22 +130,6 @@ nav a {
     font-size: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-}
-
-nav a.headernav-left {
-    float: left;
-}
-
-nav a.headernav-left:first-child {
-    margin-left: 0;
-}
-
-nav a.headernav-right {
-    float: right;
-}
-
-nav a.headernav-right:first-child {
-    margin-right: 0;
 }
 
 /* ----- ARTICLE STYLING ----- */
