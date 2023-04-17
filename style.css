@@ -15,7 +15,7 @@ body {
     padding-left: 3em;
     padding-right: 3em;
     background-color: #000000e0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lexend', sans-serif;
     text-align: center;
     color: white;
     image-rendering: auto;
@@ -34,6 +34,14 @@ hr {
     border-style: inset;
     border-width: 1px;
     clear: both;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img{
