@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> motif </title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                motif's page
+            </h1>
+            <h2>
+                <a href="index.html">home</a> ||
+                <a href="projectindex.html">projects</a> ||
+                <a href="about.html">about</a>
+            </h2>
+            <hr>
+        </header>
+        <article>
+            <h1>discord to unity interface</h1>
+            <img src="images/discordtounity/interactionbot.png" class="projectimg">
+            <br>
+            <h3>summary</h3>
+            <p>
+                Never gave this project a name, but it was essentially an experiment
+                in making a game that could be run from discord that eventually evolved
+                into a debugging console for unity.
+            </p>
+            <hr>
+            <br>
+            <img src="images/discordtounity/python.png" class="projectimg">
+            <h3>how it worked</h3>
+            <ol>
+                <li> a discord bot running on my pc (which was nicknamed heisenburg) would
+                    scan a specific discord channel for a message starting with its name and "invoke"
+                </li>
+                <br>
+                <li> if heisenburg found such a message, it would then follow certain criteria to
+                    read parameters from the message (and send back errors if the format was invalid)
+                </li>
+                <br>
+                <li> the resulting text would be forwarded via a unity-pyhon interface in which the unity application
+                    also running on my pc would listen for text on a specific port that heisenburg could send to
+                </li>
+                <br>
+                <li> unity would read that text and try to match it to an object, component, and function based on the
+                    parameters it read from heisenburg(and report any errors in the process)
+                </li>
+                <br>
+                <li> if all went according to plan(which it did eventually) the target function would run
+                    and a webhook from unity would send back a message like "success" or "did [thing]".
+                </li>
+                <br>
+            </ol>
+            <img src="images/discordtounity/commands.png" class="projectimg">
+            <img src="images/discordtounity/brightness.png" class="projectimg">
+        </article>
+        <footer>
+            <hr>
+            <h6>2023 Seth Lewis, motifsethlewis@gmail.com or 860-845-4573</h6>
+        </footer>
+    </body>
+</html>

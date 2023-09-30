@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     padding-left: 3em;
     padding-right: 3em;
-    background-color: #000000e0;
+    background-color: #02034b4f;
     font-family: 'Lexend', sans-serif;
     text-align: center;
     color: white;
@@ -23,9 +23,15 @@ body {
 }
 
 ul{
-    align-self: center;
-    text-align: center;
-    width: 10em;
+    align-self: left;
+    text-align: left;
+    width: 40em;
+}
+
+ol{
+    align-self: left;
+    text-align: left;
+    width: 40em;
 }
 
 hr {
